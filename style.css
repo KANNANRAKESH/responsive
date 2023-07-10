@@ -1,0 +1,846 @@
+* {
+  /* background-color:; */
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 15px;
+  border: 1px solid #131010;
+  background-color: rgb(31, 29, 29);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 1px 2px 10px black;
+  border-bottom: 1px solid rgb(31, 29, 29);
+}
+.ninemm-logo {
+  float: left;
+  width: 100px;
+  margin-left: 56px;
+  background-color: rgb(31, 29, 29) !important;
+}
+.li {
+  float: right;
+  padding-right: 9px;
+  margin-left: -17px;
+  margin-top: 20px;
+  font-size: smaller;
+  margin-right: 19px;
+  background-color: rgb(31, 29, 29) !important;
+}
+.li2 {
+  float: right;
+  /* margin-right: 15px; */
+  font-size: 26px;
+  margin-right: 10px;
+  margin-top: 2px;
+  background-color: rgb(31, 29, 29) !important;
+  padding-top: 18px;
+}
+
+li a {
+  display: block;
+  color: #d4caca;
+  text-align: center;
+  padding: 10px;
+  padding-right: 3px;
+  text-decoration: none;
+}
+.li3 {
+  display: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #131010;
+}
+.button {
+  color: blue;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  border-color: lightblue;
+  border-radius: 5px;
+  margin-left: 0px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+.box1 {
+  display: flex;
+  /* float: right; */
+  /* clear: both; */
+  background-color: #1e2328 !important;
+  margin-top: -2px;
+}
+.pan img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.pan {
+  width: 50%;
+  /* padding: 5px; */
+  /* border: 1px solid white; */
+  height: 600px;
+  background-color: #1f1919;
+}
+.pan1 {
+  width: 100%;
+  /* padding: 5px; */
+  border: 1px solid white;
+  /* background-color: rgb(39, 34, 34); */
+}
+.pan2 {
+  width: 50%;
+}
+.para2 i {
+  font-size: 30px;
+  padding-left: 10px;
+  font-weight: 100;
+}
+.high {
+  font-size: 50px;
+  color: yellow;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 3px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 30px;
+  padding-top: 100px;
+  font-weight: lighter;
+}
+.don {
+  color: white;
+  float: left;
+  font-family: Oswald, sans-serif;
+  /* font-weight: bold; */
+  margin-top: 10px;
+  margin-left: 35px;
+  font-size: 35px;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.para {
+  float: left;
+  color: white;
+  font-size: smaller;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
+  margin-left: 40px;
+  margin-top: 30px;
+  letter-spacing: 3px;
+}
+.para2 {
+  letter-spacing: 3px;
+  font-family: Oswald, sans-serif;
+  color: white;
+  font-size: smaller;
+  font-weight: lighter;
+  margin-right: 3px;
+  margin-top: 209px;
+  float: left;
+}
+.para3 {
+  margin-top: 300px;
+  margin-left: 50px;
+  color: white;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 3px;
+  font-size: smaller;
+}
+.boom {
+  float: left;
+  border: 2px solid yellow;
+  background-color: #1e2328 !important;
+  /* text-align: center; */
+  color: yellow;
+  padding: 14px;
+  padding-left: 44px;
+  padding-right: 41px;
+  margin-top: 85px;
+  margin-left: -300px;
+  letter-spacing: 6px;
+  font-family: Oswald, sans-serif;
+}
+.icon {
+  float: left;
+  color: white;
+  font-size: x-large;
+  font-weight: lighter;
+  margin-top: 221px;
+  margin-left: -261px;
+}
+
+.container {
+  background-color: rgb(26, 23, 23);
+  border: 1px solid #131010;
+  clear: both;
+  padding-bottom: 30px;
+}
+.target {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+  font-family: Oswald, sans-serif;
+  color: yellow;
+  margin-top: 30px;
+  background-color: rgb(26, 23, 23);
+}
+.doll {
+  margin-top: 20px;
+  margin-left: 273px;
+  width: 800px;
+}
+
+.play {
+  position: absolute;
+  color: white;
+  padding: 19px;
+  padding-right: 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  border-color: lightblue;
+  border-radius: 99px;
+  margin-left: -466px;
+  margin-top: 135px;
+  margin-bottom: 2px;
+  background-color: yellow;
+  font-size: 32px;
+}
+.first {
+  background-color: black;
+  /* margin-top: -20px; */
+  padding-bottom: 40px;
+}
+.world {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+  font-family: Oswald, sans-serif;
+  color: yellow;
+  padding-top: 20px;
+  background-color: transparent;
+}
+.drink {
+  color: white;
+  font-family: Oswald, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+  margin-top: -6px;
+  text-align: center;
+  background-color: transparent;
+}
+.show {
+  display: flex;
+  /* background-color:black; */
+}
+.pic {
+  width: 50%;
+  background-color: black;
+  /* display: flex; */
+  justify-content: flex-end;
+}
+.pic img {
+  width: 95%;
+  object-fit: fill;
+  justify-content: flex-end;
+  padding-left: 30px;
+  background-color: black;
+}
+.roman {
+  display: flex;
+  width: 50%;
+  background-color: black;
+  /* border: 1px solid white; */
+  justify-content: flex-start;
+}
+.roman-one {
+  display: flex;
+  flex: 30%;
+  max-width: 30%;
+  background-color: transparent;
+}
+.roman-two {
+  flex: 70%;
+  max-width: 70%;
+  background-color: transparent;
+}
+.roman-two-one {
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 38px;
+  color: white;
+  margin-top: 20px;
+  background-color: transparent;
+  padding: 1px;
+}
+.roman-two-two {
+  font-family: Oswald, sans-serif;
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0;
+  color: gray;
+  background-color: black;
+  margin-top: 20px;
+  text-align: start;
+  padding-right: 30px;
+}
+.roman-two-three button {
+  border: 2px solid yellow;
+  background-color: black;
+  color: yellow;
+  padding: 14px;
+  padding-left: 44px;
+  padding-right: 41px;
+  /* margin-top: 85px;
+    margin-left: -300px; */
+  letter-spacing: 6px;
+  font-family: Oswald, sans-serif;
+  margin-top: 20px;
+}
+.brain {
+  display: flex;
+  background-color: black;
+  margin-top: -1px;
+}
+.brainpic {
+  width: 50%;
+  /* display: flex; */
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+.brainpic img {
+  width: 100%;
+  object-fit: fill;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+.level {
+  display: flex;
+  width: 50%;
+  background-color: black;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+.level-one {
+  display: flex;
+  flex: 30%;
+  max-width: 30%;
+  background-color: transparent;
+}
+.level-two {
+  flex: 70%;
+  max-width: 70%;
+  background-color: transparent;
+  padding-left: 40px;
+}
+.level-two-one {
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 38px;
+  color: white;
+  margin-top: 20px;
+  background-color: transparent;
+  padding: 1px;
+  margin-left: 40px;
+}
+.level-two-two {
+  font-family: Oswald, sans-serif;
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 42px;
+  color: gray;
+  background-color: black;
+  margin-top: 30px;
+  text-align: start;
+  margin-left: 40px;
+  padding-right: 20px;
+}
+.level-two-three button {
+  border: 2px solid yellow;
+  background-color: black;
+  color: yellow;
+  padding: 14px;
+  padding-left: 44px;
+  padding-right: 41px;
+  letter-spacing: 6px;
+  font-family: Oswald, sans-serif;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.cards {
+  width: auto;
+  height: auto;
+}
+
+.cards-comman {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+.card-one {
+  width: 30%;
+  margin-bottom: 30px;
+}
+.card-one-one img {
+  width: 100%;
+}
+
+.card-one-two {
+  background-color: white;
+  margin-top: -2px;
+  padding-bottom: 30px;
+}
+.card-one-two i {
+  margin-left: 30px;
+  margin-top: 17px;
+  color: rgb(167, 157, 157);
+}
+.card-one-two h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 2;
+  margin-left: 20px;
+  /* letter-spacing: 5px; */
+  padding-top: 30px;
+}
+
+.card-one-three {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 1px;
+  font-size: 11px;
+}
+.cards-head {
+  background-color: transparent;
+}
+.cards-head h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 50px;
+  color: yellow;
+  text-align: center;
+  background-color: black;
+}
+.cards-head h4 {
+  font-family: Oswald, sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.footer {
+  background-color: #111517;
+  display: flex;
+  padding-top: 30px;
+}
+.footer-one {
+  flex: 20%;
+  max-width: 20%;
+}
+.footer-one img {
+  width: 100px;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.footer-one h2 {
+  color: white;
+  font-size: 15px;
+  font-family: Oswald, sans-serif;
+  padding-left: 44px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+.footer-one i {
+  color: yellow;
+  font-size: 30px;
+}
+.fa.fa-twitter-squarea {
+  padding-right: 10px;
+}
+.fa.fa-facebook-square {
+  padding-right: 10px;
+}
+.fa.fa-google-plus-square {
+  padding-right: 10px;
+}
+.footer-two {
+  display: flex;
+}
+.footer-two-one {
+  border-right: 1px solid yellow;
+}
+.footer-two-one p {
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  padding-top: 20px;
+  color: white;
+  padding-right: 30px;
+  line-height: 33px;
+  font-weight: bolder;
+}
+.footer-two-two p {
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  padding-top: 20px;
+  color: white;
+  padding-right: 30px;
+  line-height: 33px;
+  font-weight: bolder;
+  padding-left: 30px;
+}
+.footer-two-three p {
+  font-family: Oswald, sans-serif;
+  font-size: 13px;
+  padding-top: 15px;
+  color: white;
+  padding-right: 30px;
+  line-height: 40px;
+  font-weight: bolder;
+  padding-left: 40px;
+}
+.footer-two-four img {
+  width: 180px;
+  margin-left: 70px;
+  padding-top: 10px;
+}
+.footer-three {
+  display: flex;
+  justify-content: space-around;
+  background-color: #111517;
+}
+.footer-three h2 {
+  font-family: Oswald, sans-serif;
+  font-size: 13px;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-three h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  color: rgb(206, 201, 201);
+  font-weight: lighter;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-three span {
+  color: gray;
+}
+@media only screen and (max-width: 700px) {
+  .li {
+    display: none;
+  }
+  .fonts {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .li2 {
+    margin-right: 0px;
+  }
+
+  .li3 {
+    display: flex;
+    font-size: 25px;
+    margin-top: 17px;
+    margin-right: 10px;
+  }
+  .ninemm-logo {
+    margin-left: 10px;
+  }
+  .box1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+  }
+  .pan {
+    width: 100%;
+  }
+  .pan img {
+    width: 100%;
+    opacity: 0.5;
+  }
+  .pan2 {
+    position: absolute;
+    width: 100%;
+  }
+  .high {
+    font-size: 25px;
+    margin-top: -33px;
+    margin-left: 16px;
+    line-height: 33px;
+    font-weight: 900;
+    text-align: justify;
+  }
+  .don {
+    font-size: 30px;
+    margin-left: 16px;
+    margin-top: 20px;
+  }
+  .para {
+    margin-left: 16px;
+  }
+  .boom {
+    margin-left: 16px;
+    margin-top: 34px;
+  }
+  .icon {
+    margin-left: -173px;
+    margin-top: 157px;
+  }
+  .para2 {
+    margin-top: 132px;
+  }
+
+  .target {
+    font-size: 20px;
+  }
+  .doll {
+    width: 95%;
+    margin-left: 7px;
+  }
+  .play {
+    position: absolute;
+    color: white;
+    padding-right: 300px;
+    padding: 5px;
+    padding-left: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    border-color: lightblue;
+    border-radius: 99px;
+    margin-left: -168px;
+    margin-top: 73px;
+    margin-bottom: 2px;
+    background-color: yellow;
+    font-size: 13px;
+  }
+  .world {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  .drink {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .show {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .roman {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: black;
+  }
+  .roman-two {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .roman-two-one {
+    text-align: start;
+    margin-top: -28px;
+    line-height: 20px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 5px;
+  }
+  .roman-two-two {
+    width: 100%;
+    text-align: start;
+    line-height: 30px;
+    font-size: 17px;
+    padding-left: 5px;
+  }
+  .roman-two-three {
+    margin-left: 21px;
+    margin-right: -42px;
+  }
+  .roman-two-three button {
+    padding-left: -10px;
+  }
+  .pic {
+    width: 100%;
+    background-color: black;
+  }
+  .pic img {
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .brain {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .level {
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .level-two {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .level-two-one {
+    width: 100%;
+    text-align: start;
+    line-height: 20px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    /* padding-left: 5px; */
+    margin-left: 10px;
+  }
+  .level-two-two {
+    width: 100%;
+    text-align: start;
+    line-height: 30px;
+    font-size: 17px;
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .level-two-three {
+    margin-left: -23px;
+    margin-right: -70px;
+  }
+  .level-two-three button {
+    /* padding-left: -10px;   */
+  }
+  .brainpic {
+    width: 100%;
+    background-color: black;
+  }
+  .brainpic img {
+    background-color: black;
+    width: 100%;
+    padding-right: 0px;
+    margin-top: -40px;
+    padding-top: 20px;
+  }
+  .cards-comman {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .card-one {
+    width: 100%;
+  }
+  .card-one-two {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card-one-one img {
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer-one {
+    width: 100%;
+  }
+  .footer-one img {
+    width: 128px;
+    padding-left: 94px;
+    padding-top: 3px;
+  }
+  .footer-one h2 {
+    padding-left: 123px;
+    font-size: 16px;
+  }
+  .fa.fa-twitter-squarea {
+    margin-left: 10px;
+  }
+  .fa.fa-facebook-square {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+  .fa.fa-google-plus-square {
+    padding-right: 10px;
+  }
+  .toy {
+    display: flex;
+    margin-left: 104px;
+    margin-top: 5px;
+  }
+  .footer-two {
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+  .footer-two-one p {
+    font-size: 11px;
+    padding-left: 15px;
+    text-align: start;
+  }
+  .footer-two-two p {
+    font-size: 11px;
+    padding-left: 15px;
+    text-align: start;
+  }
+  .mobile {
+    display: block;
+  }
+  .footer-two-three p {
+    font-size: 10px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .footer-two-four img {
+    width: 50%;
+    margin-left: 82px;
+  }
+  .footer-three {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+  }
+  .footer-three h1 {
+    padding-left: 20px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .footer-three h2 {
+    padding-left: 20px;
+    font-size: 12px;
+    padding-top: 10px;
+  }
+}
